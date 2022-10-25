@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(222, 179, 8);
+}
+
+h1{
+    text-align: center;
+    padding: 10px;
+    border: 10px solid rgb(11, 154, 159);
+}
+div>h3{
+    text-align: center;
+}
+.row{
+    display: flex;
+    gap: 20px;
+    background-color: bisque;
+}
+
+.left, .middle, .right{
+    border: 10px double rgb(47, 124, 134);
+    flex: 1;
+    height: 300px;
+    margin: 10px;
+    padding: 20px;
+    overflow: scroll;
+}
